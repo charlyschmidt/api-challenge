@@ -88,3 +88,7 @@ PUT /productos/{id}
 ```
 DELETE /productos/{id}
 ```
+
+5. Front
+
+Ejecutar http://{server}/front

@@ -1,6 +1,6 @@
 create database api_productos;
 
-sue api_productos;
+use api_productos;
 
 create table productos (
     id INT AUTO_INCREMENT PRIMARY KEY,

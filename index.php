@@ -63,7 +63,7 @@ switch($metodo) {
 
         $data = json_decode(file_get_contents("php://input"),true);
 
-        borrarProducto($data["id"]);
+        borrarProducto($uri[0]);
 
         echo json_encode(["mensaje"=>"Producto borrado"]);
     break;
