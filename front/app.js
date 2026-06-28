@@ -53,7 +53,8 @@ function crearProducto() {
         data: JSON.stringify(obtenerDatos()),
         success: function () {
             limpiarFormulario();
-            listarProductos();
+             $("#mensaje").html(respuesta.mensaje).show();
+            setTimeout(listarProductos,3000);
         }
     });
 
@@ -68,7 +69,8 @@ function actualizarProducto(id) {
         data: JSON.stringify(obtenerDatos()),
         success: function () {
             limpiarFormulario();
-            listarProductos();
+             $("#mensaje").html(respuesta.mensaje).show();
+            setTimeout(listarProductos,3000);
         }
     });
 
